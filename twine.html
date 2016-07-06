@@ -1,0 +1,164 @@
+<tw-storydata name="wayback" startnode="1" creator="Twine" creator-version="2.0.11" ifid="71B58D3A-54EF-40E1-A2E4-4D211B92BBC9" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.time
+{
+	color:#fff;
+	background-color:#000;
+	text-align:center;
+	padding:10px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+}
+.remaining
+{
+	float:left;
+}
+.abort
+{
+	background-color:#ff0000;
+	color:#fff;
+	height:80px;
+	width:80px;
+	border-radius:5px;
+	font-weight:bold;
+	float:right;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Beginning" tags="" position="444,152">(set:$wristband = &quot;&lt;div class=&#39;time&#39;&gt;&lt;div class=&#39;remaining&#39;&gt;$remaining minutes remaining&lt;/div&gt;&lt;/div&gt;&quot;)
+$wristband
+
+The Wayback Room hums just at the edge of your hearing, its ceiling ringed in soft amber light. Outside the window, your partner and the Wayback technician peer in at you. Your partner looks worried--they know this is safe, technically, but neither of you has gone back before. The technician just looks bored. The impossibility of time-travel is their mundane life. In at nine, out at five, three weeks vacation, medical and dental.
+
+[[Ready to Go Back]]</tw-passagedata>
+<tw-passagedata pid="2" name="Ready to Go Back" tags="" position="447,298">$wristband
+
+You give a weak smile, unsure of what to expect, and give the tech and your partner a thumbs up, suddenly very conscious of the wristband they gave you. On its display is the current date and time and a red button that reads &quot;ABORT.&quot;
+
+The door to the Wayback Room is locked, but the bored technician told you that you could hit the Abort button at any time before being sent back for a partial refund. After you&#39;re sent back? The brochure that you read through while waiting helpfully told you that &quot;A Highly Trained Wayback Technician will continually monitor your status while you are Back and can bring you back to the present if your life is in serious danger.&quot;
+
+The &quot;Highly Trained&quot; technician outside the window doesn&#39;t look terribly interested in your trip.
+
+Your partner looks increasingly nervous about your trip as the amber light of the Wayback Room fades to green.
+
+[[ABORT]]
+[[Go Back]]</tw-passagedata>
+<tw-passagedata pid="3" name="ABORT" tags="" position="275,299">$wristband
+
+At the last second, you slap the ABORT button on your wristband. Instantly, the light in the Wayback Room goes from green to a soft red. The door clicks, and there&#39;s a soft hiss of air entering the room as it unseals.
+
+Your partner still looks worried, albeit differently.
+
+The technician still looks bored.
+
+&quot;Wristband,&quot; they say.
+
+You hold out your wrist, and they wave a small box over the clasp on your wristband. It unlatches, and the technician catches the wristband as it falls away from your arm.
+
+&quot;Thank you. Head to the front desk, and they&#39;ll process your refund.&quot;
+
+You nod, already feeling stupid, and take your partner&#39;s hand as you both exit the private waiting room and head back down the hall towards the reception desk.
+
+&quot;Are you ok?&quot; your partner asks, which you both know is a dumb question, but they ask anyway; you would have, too, if you switched places.
+
+&quot;I guess so.&quot; It sounds lame. Everything feels lame about this, but. &quot;I guess it was stupid to think I could go back and change the past.&quot;
+
+Your partner squeezes your hand. &quot;It&#39;s ok, hon. I know how important it was to you. We can always try again sometime. After all, the past will always be there.&quot;</tw-passagedata>
+<tw-passagedata pid="4" name="Go Back" tags="" position="445,441">(set:$remaining to 120)
+$wristband
+
+The hum of the Wayback Room grows and grows as the green light becomes more intense, and then, in an instant, it is gone, and you&#39;re left blinking in the piss-stinking darkness of an alleyway. They failed to warn you about that part in the brochure.
+
+Beyond the alleyway, you can hear the muffled sounds of traffic, though the street you can see is quiet.
+
+Your wristband shows that you have $remaining minutes remaining in your trip, along with the day, month, and year: [day, month], 2014.
+
+[[Stay in the alley]]
+[[Leave the alley]]</tw-passagedata>
+<tw-passagedata pid="5" name="Stay in the alley" tags="" position="305,534">(set:$remaining -= 2)
+$wristband
+
+As your eyes adjust to the dark alley, more details become clear to you. Behind you, there&#39;s a dumpster, which you&#39;re pretty sure is the source of the urine smell that first assaulted you when you arrived in this time. Black plastic trash bags protrude from the dumpster, and as your hanging ganglia become saturated with the scent of urine, you notice more nuanced trash smells.
+
+[[Leave the alley]]
+[[Remain in the alley]]</tw-passagedata>
+<tw-passagedata pid="6" name="Leave the alley" tags="" position="626,545">$wristband
+
+The street you step out onto is still recognizable as Downtown Oakland, but only barely. The street plan hasn&#39;t changed, but some buildings are totally unrecognizable, while others just plain aren&#39;t there.
+
+[[Head towards BART]]
+[[Look around]]
+[[Go back to the alley]]</tw-passagedata>
+<tw-passagedata pid="7" name="Remain in the alley" tags="" position="430.0001,661">(set:$remaining -= 2)
+$wristband
+
+It&#39;s funny. The longer you stand in the alley, the more you realize that for all fo the advanced technology, the past that you&#39;re currently taking part in isn&#39;t that different from the present. For instance, the last time you had to take the trash out in your building, the alleyway didn&#39;t smell too dissimilar to the one you&#39;re in right now.
+
+Granted, you don&#39;t have to take the trash out nearly as often in your home time, since most disposable goods are designed to be recycled or reused, but it *does* happen every few months.
+
+[[Leave the alley]] 
+[[Linger in the alley]]</tw-passagedata>
+<tw-passagedata pid="8" name="Linger in the alley" tags="" position="478,790">(set:$remaining -= 5)
+$wristband
+
+Looking around the alley, you realize that your feet are getting a bit sore just standing in one place. As you&#39;re looking for something to sit on that isn&#39;t filthy, you hear a voice.
+
+&quot;Hey, what are you doing back here?&quot;
+
+You turn. There&#39;s a large figure sillhouetted against the bright street.
+
+[[Make a lame excuse]]
+[[Ignore them]]
+Beat a hasty retreat (click: &quot;Beat a hasty retreat&quot;)[$retreat]
+(set: $retreat to &quot;&lt;br /&gt;&lt;br /&gt;\&quot;Gotta go!\&quot; you yell as you [[rush past the man|Leave the alley]]&quot;)</tw-passagedata>
+<tw-passagedata pid="9" name="Make a lame excuse" tags="" position="603.0001,734">(set:$remaining -= 1)
+$wristband
+
+&quot;I&#39;m looking for my friend?&quot; You say, not quite a statement, not quite a question.
+
+&quot;Well, beat it, alright?&quot; the large man says.
+
+[[Leave the alley]] </tw-passagedata>
+<tw-passagedata pid="10" name="Ignore them" tags="" position="757,853">(set:$remaining -= 5)
+$wristband
+
+You ignore the man, who seems a bit disconcerted by your silence as he walks past you and puts another bag of trash into the overflowing dumpster before leaving. You&#39;ve really come to appreciate this alley. You almost wish you could have brought your partner with you, though they&#39;re leary of the whole time-travel idea. They&#39;d probably think it was a waste of time and money to go back in time just to stand around in a smelly alleyway, but they haven&#39;t been to *this* alleyway, so what can they really say about it anyway?
+
+[[Dawdle]]
+Reluctantly move on (click: &quot;Reluctantly move on&quot;)[$fine]
+
+(set:$fine to &quot;&lt;br /&gt;&lt;br /&gt;Fine, you&#39;ll [[leave-&gt;Leave the alley]]&quot;)</tw-passagedata>
+<tw-passagedata pid="11" name="Dawdle" tags="" position="597,922">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="12" name="Head towards BART" tags="" position="888.3333333333334,428.33333333333337">(set:$remaining -= 5)
+$wristband
+
+12th Street BART is...the same as you remember it from your time, if that thought even really computes, but it&#39;s also different. It&#39;s dimmer and dirtier, for instance.
+
+Your wristband lets you tap your way through the turnstile, and you descend to the platform just as a Millbrae train pulls into the station.
+
+[[Run for it|On BART]]
+[[Wait for the next train]]</tw-passagedata>
+<tw-passagedata pid="13" name="Look around" tags="" position="776,695">(set:$remaining -= 2)
+$wristband
+
+You&#39;d seen pictures of Oakland in the early 21st Century before, but nothing really captured it quite the way it is now that you&#39;re standing in the year 2014. It&#39;s not just the smells, though you got quite a few of them in the alleyway. The tire marks on the street look fresh, as if someone had laid them down in their scraper just yesterday.
+
+Buildings that you&#39;d taken for granted your whole life just aren&#39;t there, though.
+
+Sure, the Tribune building is where you expect it to be, but many of the office buildings that had been standing your whole life are decades away from even a groundbreaking, let alone completion.
+
+[[Head towards BART]] 
+[[Go back to the alley]] </tw-passagedata>
+<tw-passagedata pid="14" name="Go back to the alley" tags="" position="932,665">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="15" name="On BART" tags="" position="1143.3333333333335,421.6666666666667">$wristband
+</tw-passagedata>
+<tw-passagedata pid="16" name="Wait for the next train" tags="" position="1013.3333333333334,540">$wristband
+
+In the middle of the day, the platform is almost empty. A few other people stand or sit, their faces buried in their phones.
+
+You look down at the piece of paper from your pocket again, then back at the time, suddenly nervous that you won&#39;t make it in time.
+
+Finally, a Daly City train arrives.
+
+(set:$remaining -= 12)
+[[Get on|On BART]] </tw-passagedata>
+</tw-storydata>
+
+
